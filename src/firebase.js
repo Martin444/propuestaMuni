@@ -1,5 +1,4 @@
 import * as firebase from 'firebase/app';
-import firestore from 'firebase/firestore'
 
 
 const config = {

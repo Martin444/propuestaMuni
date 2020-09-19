@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 
 import styled from 'styled-components'
 import CardNotice from './CardNotice'
-import Img from '../../img/cio.png'
 import firebase from '../../firebase'
 
 
