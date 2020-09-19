@@ -28,6 +28,7 @@ import logo from '../img/NoPath.png'
                                         <img src={logo} alt="municipalidad de tartagal" className='logo' />
                                     </Link>
 
+                                </div>
                                     <div>
                                         <ul className={isOpen?"nav-links show-nav":"nav-links"}>
                                             <button type="button"  
@@ -63,7 +64,7 @@ import logo from '../img/NoPath.png'
                                             </button>
                                         </ul>
                                     </div>
-                                </div>
+                                
                             </div>
                         
                     </div>
@@ -84,7 +85,7 @@ const NavBarte = styled.div`
     .nav-header {
         display: flex;
         width: 100%;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
     .nav-btn {
         background: transparent;
@@ -95,7 +96,7 @@ const NavBarte = styled.div`
         margin-top: 5px;
     }
     .nav-btn2 {
-        display:block;
+        display:flex;
         background: transparent;
         border: none;
         cursor: pointer;
