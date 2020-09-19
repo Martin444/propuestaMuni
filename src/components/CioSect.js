@@ -19,7 +19,7 @@ export default function CioSect() {
                        partes del Centro de Informaciones Operativas de Tartagal, <strong>contacta si tienes sintomas</strong>.</span>
                     <div className='btns'>
                         <button className='btn1'>CONTACTAR</button>
-                        <Link to='/C.I.O' >
+                        <Link to='/cio' >
                             <button className='btn3'>
                                     NOVEDADES
                             </button>

@@ -1,19 +1,28 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
-export default function CardNotice({image, title, description}) {
+export default function CardNotice(props) {
     return (
-        <Card>
-            <div className='cover'>
-                <img src={image} alt='Imagen'/>
+        <Card >
+            <div className='cover' >
+                <img src={props.info.img} alt='Imagen'/>
             </div>
             <div className='conten'>
-                <h1>{title}</h1>
-                <span>{description}
+                <h1>{props.info.title}</h1>
+                <span>{props.info.subtitle}
                 </span>
             </div>
 
-            <button className='btn'>VER MÁS</button>
+            <Link
+                to={{
+                    pathname:`/noticias/${props.info.title}`,
+                    state: {...props.info}
+                }}
+                className='btn'
+            >
+                <p>VER MÁS</p>
+            </Link>
             
         </Card>
     )
@@ -51,10 +60,15 @@ const Card = styled.div`
     }
 
     .btn{
+        text-align:center;
+        /* display:block; */
         margin: 10px;
+        /* padding-bottom:1px; */
         color: #ffff;
-        height: 30px;
+        outline: none;
+        /* height: 30px; */
         font-size: 14px;
+        font-display: block;
         border:none;
         border-radius: 20px;
         background: #D61535;

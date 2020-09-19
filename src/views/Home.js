@@ -74,8 +74,8 @@ left: 0;
     border-radius: 5px;
     background: #B38029;
     transition: all .3s ;
-    box-shadow:  2px 2px 5px #684a18, 
-                -2px -2px 5px #feb63a;
+    box-shadow:  1px 2px 0px #684a18, 
+                -1px -2px 0px #feb63a;
     
 
     &:hover {

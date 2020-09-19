@@ -31,11 +31,7 @@ export default function GridNotice() {
            {
                notice.map((items, index)=> {
                    return <div className='cards'>
-                            <CardNotice 
-                                image={items.data().img}
-                                title={items.data().title}
-                                description={items.data().subtitle}
-                            />
+                            <CardNotice info={items.data()} key={`info-${index}`}/>
                         </div>
                })
            }
