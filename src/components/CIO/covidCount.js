@@ -9,12 +9,9 @@ export default function CovidCount() {
     useEffect(()=> {
         firebase.firestore().collection('covidcount').get()
         .then((doc)=>{
-            
-            
             doc.docs.map((items, index) =>
                 serCounts(items.data())
             )
-            
         })
     });
 

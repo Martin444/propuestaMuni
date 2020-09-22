@@ -16,9 +16,9 @@ export default function CioSect() {
                 <div className='info'>
                    <h2>C.I.O Tartagal</h2>
                    <span>Consultá las últimas novedades con los 
-                       partes del Centro de Informaciones Operativas de Tartagal, <strong>contacta si tienes sintomas</strong>.</span>
+                       partes del Centro de Informaciones Operativas de Tartagal, <strong>si tenés sintomas</strong>.</span>
                     <div className='btns'>
-                        <button className='btn1'>CONTACTAR</button>
+                        <button className='btn1'>CONTACTÁCTANOS</button>
                         <Link to='/cio' >
                             <button className='btn3'>
                                     NOVEDADES

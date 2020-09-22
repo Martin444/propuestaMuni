@@ -3,7 +3,6 @@ import React from 'react'
 // Dependencias
 import {Link} from 'react-router-dom'
 import styled from 'styled-components'
-import moment from 'moment'
 
 
 

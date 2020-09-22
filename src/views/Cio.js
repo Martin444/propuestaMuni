@@ -12,9 +12,12 @@ export default function Cio() {
                     <h1>C.I.O TARTAGAL</h1>
                     <CovidCount/>
                     <p>SI TIENES ALGUNOS DE LOS SINTOMAS</p>
-                    <button type='button' className='btn1'>
-                        CONTACTA
-                    </button>
+                    <a href="https://wa.me/5493873413199">
+
+                        <button type='button' className='btn1'>
+                            CONTACTA
+                        </button>
+                    </a>
                 </section>
             </div>
             <Boletines/>
@@ -33,7 +36,7 @@ const Ciot = styled.section`
     .boar{
         height:100%;
         padding-top: 1pc;
-        padding:6.75rem 5.20rem;
+        padding:2.75rem 5.20rem;
         background-image: linear-gradient(to bottom, rgba(52, 58, 64, 0.45), #343a40), url(${CioBanner});
         background-size: cover;
     }
@@ -77,7 +80,7 @@ const Ciot = styled.section`
         .boar{
             height:100%;
             padding-top: 1pc;
-            padding:5.75rem 0.20rem;
+            padding:3.75rem 0.20rem;
             background-image: linear-gradient(to bottom, rgba(52, 58, 64, 0.45), #343a40), url(${CioBanner});
             background-size: contain no-repeat;
         }

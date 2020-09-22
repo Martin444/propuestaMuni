@@ -15,10 +15,10 @@ function App() {
       <div className="App">
             <NavBar/>
             <Switch>
-              <Route exact path='/' component={Home} />
-              <Route exact path='/noticias' component={Notices} />
-              <Route exact path='/noticias/:id' component={Details} />
-              <Route exact path='/cio' component={Cio} />
+              {/* <Route exact path='/' component={Home} /> */}
+              {/* <Route exact path='/noticias' component={Notices} /> */}
+              {/* <Route exact path='/noticias/:id' component={Details} /> */}
+              <Route exact path='/' component={Cio} />
 
             </Switch>
             <Footer/>

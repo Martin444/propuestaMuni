@@ -3,13 +3,14 @@ import 'firebase/firestore';
 
 
 const config = {
-    apiKey: "AIzaSyDkl4YNlpS3y_AQW1tr3uwdvrufi03lKKA",
-    authDomain: "setl-73f24.firebaseapp.com",
-    databaseURL: "https://setl-73f24.firebaseio.com",
-    projectId: "setl-73f24",
-    storageBucket: "setl-73f24.appspot.com",
-    messagingSenderId: "549077118388",
-    appId: "1:549077118388:web:d9651b43bf99bc71a5d6e1"
+    apiKey: "AIzaSyCAlbhdc3xTay2vjGJcHBKUkB7qxa2QvOU",
+    authDomain: "municipalidad-b7cfe.firebaseapp.com",
+    databaseURL: "https://municipalidad-b7cfe.firebaseio.com",
+    projectId: "municipalidad-b7cfe",
+    storageBucket: "municipalidad-b7cfe.appspot.com",
+    messagingSenderId: "655537131987",
+    appId: "1:655537131987:web:cea9bc1c224db4a1e81f26",
+    measurementId: "G-6TEHXPMHVM"
 };
 firebase.initializeApp(config);
 

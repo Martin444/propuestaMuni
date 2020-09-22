@@ -29,7 +29,7 @@ import logo from '../img/NoPath.png'
                                     </Link>
 
                                 </div>
-                                    <div>
+                                    {/* <div>
                                         <ul className={isOpen?"nav-links show-nav":"nav-links"}>
                                             <button type="button"  
                                             onClick={handleToggle}
@@ -64,7 +64,7 @@ import logo from '../img/NoPath.png'
                                             </button>
                                         </ul>
                                     </div>
-                                
+                                 */}
                             </div>
                         
                     </div>
