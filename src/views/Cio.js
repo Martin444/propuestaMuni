@@ -11,8 +11,8 @@ export default function Cio() {
                 <section className= 'init'>
                     <h1>C.I.O TARTAGAL</h1>
                     <CovidCount/>
-                    <p>SI TIENES ALGUNOS DE LOS SINTOMAS</p>
-                    <a href="https://wa.me/5493873413199">
+                    <p>SI TENÉS ALGUNOS DE LOS SINTOMAS</p>
+                    <a href="https://wa.me/5493873230803" target='_blank' rel="noopener noreferrer">
 
                         <button type='button' className='btn1'>
                             CONTACTA
