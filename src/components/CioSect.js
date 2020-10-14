@@ -18,7 +18,7 @@ export default function CioSect() {
                    <span>Consultá las últimas novedades con los 
                        partes del Centro de Informaciones Operativas de Tartagal, <strong>si tenés sintomas</strong>.</span>
                     <div className='btns'>
-                        <button className='btn1'>CONTACTÁCTANOS</button>
+                        <button className='btn1'>CONTACTÁNOS</button>
                         <Link to='/cio' >
                             <button className='btn3'>
                                     NOVEDADES
@@ -104,7 +104,7 @@ svg {
     color: #fff;
     font-weight: bold;
     font-size: 17px;
-    width: 130px;
+    width: 150px;
     height: 40px;
     cursor: pointer;
     border: none;
